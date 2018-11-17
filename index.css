@@ -1,0 +1,76 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:'Heebo',sans-serif;
+}
+.sidebar{
+  width:250px;
+  height:100%;
+  background: whitesmoke;
+  padding:15px;
+}
+.topcontent{
+display:flex;
+flex-direction:row;  
+}
+.calli{
+  font-family:'Calligraffitti',sans-serif;
+  font-size: 20px;
+  padding-left:15px;
+  padding-top:3px;
+  font-weight: bold;
+}
+.secondcontent{
+  text-align:center;
+  margin-top:30px;
+}
+.secondcontent img{
+  border-radius: 50%;
+  border:1px solid blue;
+  padding:5px;
+}
+.secondcontent p{
+  margin:0px;
+  padding:0px;
+  font-family:'Calligraffitti',sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+}
+.tags{
+  font-family:'Calligraffitti',sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  margin-top:40px;
+}
+.tags ul li{
+  list-style:none;
+  padding:15px;
+}
+.colorchange{
+  animation: 2s sonu infinite;
+}
+@keyframes sonu{
+  0%{color:red;}
+  25%{color:purple;}
+  50%{color:orangered;}
+  75%{color:white;}
+  100%{color:palegreen;}
+}
+.autochange{
+  animation: 3s akshay infinite;
+}
+@keyframes akshay{
+  0%{color:rgb(234, 255, 42);}
+  25%{color:purple;}
+  50%{color:rgb(22, 226, 233);}
+  100%{color:rgb(0, 253, 0);}
+}
+.semicolor{
+  animation:2s ego infinite;
+}
+@keyframes ego{
+  0%{background-color:rgb(234, 255, 42);}
+  25%{background-color:purple;}
+  50%{background-color:rgb(22, 226, 233);}
+  100%{background-color:rgb(253, 17, 0);}
+}
